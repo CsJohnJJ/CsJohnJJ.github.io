@@ -4104,3 +4104,11 @@ input, select, textarea {
 					}
 
 	}
+
+.email-link{
+	color: white;
+	border-bottom: none;
+}
+.email-link:hover {
+	color: black !important;
+}
