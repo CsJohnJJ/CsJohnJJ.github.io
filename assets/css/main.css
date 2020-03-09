@@ -3439,7 +3439,8 @@ input, select, textarea {
 	body.landing #header {
 		background: transparent;
 		box-shadow: none;
-		position: absolute;
+		border-bottom: 1px solid black;
+		position: fixed;
 	}
 
 /* Banner */
@@ -4113,6 +4114,6 @@ input, select, textarea {
 	color: black !important;
 }
 
-/* .footer-icon:hover{
+.footer-icon:hover{
 	color: #e44c65 !important;
-} */
+}
