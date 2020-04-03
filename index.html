@@ -20,7 +20,7 @@
 							<li><a href="#one" class="scrolly">About Me</a></li>
 							<li><a href="#two" class="scrolly">Projects</a></li>
 							<li><a href="#five" class="scrolly">Skills & Technologies</a></li>
-							<li><a href="./images/Resume.pdf" target="_blank">Resume</a></li>
+							<li><a href="./images/resume.pdf" target="_blank">Resume</a></li>
 							<li><a href="#six" class="scrolly">Contact</a></li>
 					</nav>
 				</header>
@@ -61,7 +61,7 @@
 								</div>
 							</div>
 								<ul class="actions special">
-								<li><a href="./images/Resume.pdf" target="_blank" class="button">My Resume</a></li>
+								<li><a href="./images/resume.pdf" target="_blank" class="button">My Resume</a></li>
 							</ul>
 						</div>
 					</div>
@@ -78,9 +78,9 @@
 						</header>
 						<p>Single-page web app allowing users to communicate in real-time, inspired by Slack.</p>
 						<ul>
-						<li>Implemented WebSockets using Rails ActionCable to establish a persistent connection between the user and the server.</li>
+						<li>Implemented WebSockets using Rails ActionCable to establish a persistent connection between the user and the server which allows the user to see messages broadcast in real-time.</li>
 						<li>Ensured calls to the database run asynchronously through the use of AJAX and Thunk middleware.</li>
-						<li>Created polymorphic associations in Rails with users on messages and channels.</li>
+						<li>Created polymorphic associations in Rails with users on messages and channels​, creating a one-to-many relationship between these classes and producing a DRY codebase, as well as a more efficient database architecture.</li>
 						</p>
 						</ul>
 						<ul class="actions">
@@ -101,10 +101,9 @@
 						</header>
 						<p>Web app allowing users to collect digital assets by exchanging digital currency.</p>
 						<ul>
-							<li>Built user authentication by encrypting user details with JSON Webtoken to be used with Axios to be decrypted with the
-							JWT-Decode library in the frontend.</li>
-							<li>Included Validator.js library to check model validation for the inclusion of password & email upon login.</li>
-							<li>Engineered a smooth and functional UI with custom CSS to provide users with an interactive experience.</li>
+							<li>Built user authentication by encrypting user details with JSON Web token to be used with Axios and to be decrypted with the JWT-Decode library in the frontend, ensuring user information is securely transmitted to the database.</li>
+							<li>Included Validator.js library to check model validation for the inclusion of password and email upon login, ensuring email & password combinations are correct and unique.</li>
+							<li>Engineered a smooth and functional UI with custom CSS to provide users with an interactive experience, relying on modals to alert users of market place messages and to provide a cohesive login/signup screen..</li>
 						</ul>
 						<ul class="actions">
 							<li><a href="http://minion-wars.herokuapp.com" target="_blank" class="button">Live</a></li>
@@ -124,9 +123,9 @@
 						</header>
 						<p>Side-scrolling platform game, where the user collect baby bottles and tries to reach the end of the level.</p>
 						<ul>
-							<li>Incorporated axis-aligned algorithm to detect collision between user and objects.</li>
-							<li>Designed multi-layer canvas with various velocity for an attractive background.</li>
-							<li>Formulated level design with Object-Oriented Programming for simple map additions.</li>
+							<li>Incorporated an axis-aligned algorithm to detect collision between user and objects by checking the user’s current position from its x and y-axis against the colliding object’s edges.</li>
+							<li>Designed a multi-layer canvas with varying velocities for an attractive background by assigning each background asset to a different layer and z-index.</li>
+							<li>Formulated game object classes based on Object-Oriented Programming patterns for DRY code, which lends itself easily to the reuse of code through principles of inheritance and abstraction.</li>
 						</ul>
 						<ul class="actions">
 							<li><a href="https://csjohnjj.github.io/EliteBaby/" target="_blank" class="button">Live</a></li>
@@ -246,7 +245,7 @@
 						</div>
 						<footer class="major">
 							<ul class="actions special">
-								<li><a href="./images/Resume.pdf" target="_blank" class="button">My Resume</a></li>
+								<li><a href="./images/resume.pdf" target="_blank" class="button">My Resume</a></li>
 							</ul>
 						</footer>
 					</div>
